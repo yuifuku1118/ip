@@ -25,7 +25,7 @@ public class Duke {
     private Ui ui;
 
     /**
-     * Defult constructor  
+     * Defult constructor.
      * @param filepath filepath to the history file
      */
     public Duke(String filePath) {
@@ -59,7 +59,7 @@ public class Duke {
     }    
 
     public static void main(String[] args) throws InputNotValidError, IOException {
-        new Duke("data.txt").run();
+        new Duke("/Users/fukushimayuuichirou/Desktop/ip/data/data.txt").run();
     }
 
 }
